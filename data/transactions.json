@@ -1,0 +1,132 @@
+[
+    {
+        "transaction_id": "1e9b2b60-65d6-4f48-a1d4-75cc3e46d85f",
+        "order_id": "79f8cc59-0a56-4093-84b2-016c3b3762ab",
+        "timestamp": "2024-11-23T15:34:21",
+        "amount": 342.50,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "credit_card",
+            "provider": "Visa"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "b54d8fa0-905b-4424-bc8e-7481dc543215",
+        "order_id": "1894eae1-2bd5-4772-a9c4-1c6e7e4e2f52",
+        "timestamp": "2024-11-23T12:00:00",
+        "amount": 128.50,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "debit_card",
+            "provider": "MasterCard"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "a3cd8e7c-f45b-4516-8cc9-86c6e541d973",
+        "order_id": "f6fbe283-3584-43f9-80b9-8026a6c2b56e",
+        "timestamp": "2024-11-23T10:00:00",
+        "amount": 450.00,
+        "currency": "USD",
+        "status": "failed",
+        "payment_method": {
+            "type": "wallet",
+            "provider": "PayPal"
+        },
+        "error_code": "insufficient_funds"
+    },
+    {
+        "transaction_id": "f12c76b5-ae34-4f83-815e-748dbc3ae2af",
+        "order_id": "3cd93a7d-8031-4e8a-851f-8728e5c028d9",
+        "timestamp": "2024-11-22T09:30:00",
+        "amount": 59.99,
+        "currency": "USD",
+        "status": "pending",
+        "payment_method": {
+            "type": "credit_card",
+            "provider": "Amex"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "e74b7d2b-74ad-4bd7-90cb-8673d6c17c36",
+        "order_id": "20adf03a-c02b-45a4-832f-9d396b3de947",
+        "timestamp": "2024-11-22T18:00:00",
+        "amount": 200.00,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "debit_card",
+            "provider": "Discover"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "01d7f23d-1b59-4706-bd44-b84dc5c6db36",
+        "order_id": "2dcd6ef7-ec04-4195-bd6b-51941e34305d",
+        "timestamp": "2024-11-22T13:00:00",
+        "amount": 700.00,
+        "currency": "USD",
+        "status": "failed",
+        "payment_method": {
+            "type": "wallet",
+            "provider": "PayPal"
+        },
+        "error_code": "transaction_declined"
+    },
+    {
+        "transaction_id": "c06bfb02-d87b-4c68-a536-230d726ed4d1",
+        "order_id": "4c6f5cdd-9d8e-4e7e-936f-1a9531784957",
+        "timestamp": "2024-11-21T14:30:00",
+        "amount": 123.45,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "credit_card",
+            "provider": "Visa"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "5f92d66b-8a90-49b8-8c5b-4d9783a5dc69",
+        "order_id": "b1ecbc16-c711-41d8-86bb-2e22df83b8a3",
+        "timestamp": "2024-11-21T20:00:00",
+        "amount": 299.99,
+        "currency": "USD",
+        "status": "pending",
+        "payment_method": {
+            "type": "debit_card",
+            "provider": "MasterCard"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "7c6fcd6a-49e4-42fc-93c7-44f30dbb9231",
+        "order_id": "c8b43e0b-51e2-4c9b-8e8f-d5678f978c99",
+        "timestamp": "2024-11-20T17:30:00",
+        "amount": 500.00,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "credit_card",
+            "provider": "Amex"
+        },
+        "error_code": null
+    },
+    {
+        "transaction_id": "6d2e389f-bf72-4e6e-94f3-3e2b97565f42",
+        "order_id": "d4b9c65c-0931-43a3-919f-dc0d31280584",
+        "timestamp": "2024-11-20T11:00:00",
+        "amount": 150.00,
+        "currency": "USD",
+        "status": "completed",
+        "payment_method": {
+            "type": "wallet",
+            "provider": "Stripe"
+        },
+        "error_code": null
+    }
+]

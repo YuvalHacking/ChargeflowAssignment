@@ -1,0 +1,6 @@
+transaction_id,dispute_date,amount,reason_code,status,resolution_date
+1e9b2b60-65d6-4f48-a1d4-75cc3e46d85f,2024-11-23T16:00:00,342.50,product_not_received,resolved,2024-11-24T10:00:00
+b54d8fa0-905b-4424-bc8e-7481dc543215,2024-11-23T18:00:00,128.50,unauthorized_transaction,open,2024-11-24T10:00:00
+a3cd8e7c-f45b-4516-8cc9-86c6e541d973,2024-11-23T19:00:00,450.00,insufficient_funds,resolved,2024-11-24T15:30:00
+e74b7d2b-74ad-4bd7-90cb-8673d6c17c36,2024-11-22T19:00:00,200.00,fraudulent_charge,open,2024-11-24T10:00:00
+5f92d66b-8a90-49b8-8c5b-4d9783a5dc69,2024-11-21T21:00:00,299.99,duplicate_transaction,resolved,2024-11-22T10:00:00
