@@ -12,7 +12,7 @@ This data pipeline project is designed to process and transform financial data f
 ## Project Structure
 
 ```
-data_processing_project/
+ChargeflowAssignment/
 ├── data/------------------------------------------- Mock data of each datasources
 │   ├── chargebacks.csv
 │   ├── orders.json
