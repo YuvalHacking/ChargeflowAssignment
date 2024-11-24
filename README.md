@@ -65,5 +65,4 @@ python -m scripts.pipeline
 ```
 
 ## Architecture
-
-![Uploading architecture.png…]()
+![architecture](https://github.com/user-attachments/assets/054d6858-eeeb-4f56-ab26-8992a5cf8bf6)
