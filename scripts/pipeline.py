@@ -65,6 +65,9 @@ def main():
         print("\nChargeback Rate by Transaction:")
         print(metrics['chargeback_rate'])
 
+        print("\nFailed Transaction Analysis:")
+        print(metrics['failed_transaction_analysis'])
+
         print("\nPayment Success Rate:")
         print(metrics['payment_success_rate'])
 

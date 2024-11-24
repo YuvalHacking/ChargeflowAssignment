@@ -75,9 +75,21 @@ def calculate_business_metrics(transactions_df: pd.DataFrame, chargebacks_df: pd
     chargeback_rates = chargebacks_df.groupby('transaction_id').size().reset_index(name='chargebacks')
     chargeback_rate = chargeback_rates.groupby('transaction_id').agg(chargeback_rate=('chargebacks', 'mean'))
 
+    # Analyze failed transactions by payment method
+    failed_transactions = transactions_df[transactions_df['status_y'] == 'failed']
+    failed_transaction_analysis = failed_transactions.groupby('payment_method').agg(
+        failed_transaction_count=('transaction_id', 'count'),
+        failed_transaction_value=('amount_y', 'sum')
+    ).reset_index()
+
+    failed_transaction_analysis_result = (
+    failed_transaction_analysis if not failed_transaction_analysis.empty else "No failed transactions found."
+)
+
     metrics = {
         "daily_transactions": daily_transactions,
         "chargeback_rate": chargeback_rate,
+        "failed_transaction_analysis": failed_transaction_analysis_result,
         "payment_success_rate": calculate_payment_success_rate(transactions_df)
     }
     return metrics
