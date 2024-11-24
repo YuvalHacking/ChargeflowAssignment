@@ -8,6 +8,7 @@ This data pipeline project is designed to process and transform financial data f
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Architecture](#architecture)
 
 ## Project Structure
 
@@ -45,7 +46,8 @@ ChargeflowAssignment/
 ## Setup
 
 1. **Clone the repository**:
-    ```sh
+    ```sh![architecture](https://github.com/user-attachments/assets/f7cc67c4-e676-45d6-b4c8-062c77597ad4)
+
     git clone https://github.com/YuvalHacking/ChargeflowAssignment
     cd ChargeflowAssignment
     ```
@@ -61,3 +63,7 @@ ChargeflowAssignment/
 ```sh
 python -m scripts.pipeline
 ```
+
+## Architecture
+
+![Uploading architecture.png…]()
